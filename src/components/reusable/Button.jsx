@@ -1,6 +1,6 @@
 import React from "react";
 
-const Link = ({ label, textColor, bgColor, border, textDecor, padding }) => {
+const Button = ({ label, textColor, bgColor, border, textDecor, padding }) => {
   return (
     <div>
       <button
@@ -19,4 +19,4 @@ const Link = ({ label, textColor, bgColor, border, textDecor, padding }) => {
   );
 };
 
-export default Link;
+export default Button;
